@@ -24,12 +24,12 @@
 #include <vector>  // Include vector library for storing offline GPS data
 
 // WiFi credentials
-const char* ssid = "iotproject";      // WiFi SSID
-const char* password = "iotproject";  // WiFi Password
+const char* ssid = "xxxx";      // WiFi SSID - Replace your own
+const char* password = "xxxx";  // WiFi Password - Replace your own
 
 // Server details for sending GPS data
 const char* serverUrl = "https://www.circuitdigest.cloud/geolinker";  // Server URL
-const char* apiKey = "rBVR0iKt0soY";                                  // API key for authentication
+const char* apiKey = "xxxxxxxxxxxx";                                  //12 character API key for authentication
 
 // GPS module connection using UART1
 HardwareSerial gpsSerial(1);
